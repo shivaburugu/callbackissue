@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    //need to implement
     private String getValue(int converInt, boolean showDialog){
         final String[] result = new String[1];
         if(showDialog){
@@ -58,5 +59,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    //older version of code
+    private String getValue(int converInt){
+        return Integer.toString(converInt);
+    }
 
 }
